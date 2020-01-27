@@ -23,7 +23,8 @@
     </nav>
   </header>
   <main class="main">
-  <div class="slideshow-container">
+  <section class="slideshow-container">
+    <h2 class="hidden">slideshow</h2>
     <div class="slideshow-item">
       <img src="/poster1.png" alt="first poster">
       <h2 class="slideshow-title">THE OOH NOO <br> COLLECTION</h2>
@@ -48,17 +49,17 @@
       <p class="slideshow-text">Lorem ipsum dolor sit amet</p>
       <a class="link" href="#">Explore Now</a>
     </div>
-    <a class="slideshow-control_first" href="#" role="button">
-      <img src="/icon.png" alt="button icon"></a>
-    <a class="slideshow-control_second" href="#" role="button">
-      <img src="/icon.png" alt="button icon"></a>
-    <a class="slideshow-control_third" href="#" role="button">
+    <button class="slideshow-control_first" type="button">
+      <img src="/icon.png" alt="button icon"></button>
+    <button class="slideshow-control_second" type="button">
+      <img src="/icon.png" alt="button icon"></button>
+    <button class="slideshow-control_third" type="button">
       <img src="/icon.png" alt="button icon">
-    </a>
-    <a class="slideshow-control_fourth" href="#" role="button">
+    </button>
+    <button class="slideshow-control_fourth" type="button">
       <img src="/icon.png" alt="button icon">
-    </a>
-  </div>
+    </button>
+  </section>
     <div><p class="poster-footer_text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
     </div>
   <section class="products">
@@ -81,12 +82,11 @@
         <h3 class ="product-title"> Accessories</h3></a>
       </li>
     </ul>
-    <section class="description">
-      <h2 class="hidden">description</h2>
+    <div class="description">
       <button class="description-button"><img src="/arrowleft.png" alt="left arrow"></button>
       <button class="description-button"><img src="/arrowright.png" alt="right arrow"></button>
       <p class="description-text">Modern finds for the modern home. Curated goods by unique designers <br> around the world from fashion to furniture for kids and adults.</p>
-    </section>
+    </div>
   </section>
   <section class="delivery">
     <h2 class="delivery-title">Delivery</h2>
@@ -151,7 +151,7 @@
       <li><a class="customer-link" href="#">Search</a></li>
     </ul>
   </nav>
-  <nav class="connect">
+  <div class="connect">
     <h3 class="connect-title">Connect</h3>
     <form action="#">
       <input class="input-email" type="email" name="email" id="email_input"
@@ -172,7 +172,7 @@
         <img src="/ig.png" alt="instagram icon">
       </a></li>
     </ul>
-</nav>
+</div>
 <div class="rating">
   <p class="rating-text">Company Rating</p>
   <!-- рейтинг -->
